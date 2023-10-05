@@ -2,8 +2,6 @@
 
 工大二手堂项目（仿咸鱼）包含从首页浏览商品，商品详情，微信登录，加入购物车，提交订单，微信支付，订单管理等功能。
 
-当前仓库为工大二手堂的**项目模板**。
-
 ### 技术栈
 
 ✨ 脚手架工具：vue-cli
@@ -24,13 +22,13 @@
 
 ### 📀 视频学习
 
-#### 	1.原生开发：
+#### 			1.原生开发：
 
  	开发软件：微信开发者工具（开放端口，导入项目路径）
  	
  	教学视频：https://www.bilibili.com/video/BV1834y1676P?p=7&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
 
-#### 	2.uniapp 框架开发
+#### 			2.uniapp 框架开发
 
  	开发软件：HBuilder X（过渡）或者 vscode（主力）
  	
@@ -42,7 +40,7 @@
 
 ### ✏️ 在线笔记
 
-[		https://megasu.gitee.io/uni-app-shop-note/](https://megasu.gitee.io/uni-app-shop-note/)
+​		https://github.com/shandongfeng/GongDaEST/tree/master/%E6%88%91%E7%9A%84%E7%AC%94%E8%AE%B0
 
 ### 📖学习手册
 
@@ -52,11 +50,25 @@
 
 ### 📦 项目源码
 
-​		[https://gitee.com/Megasu/uniapp-shop-vue3-ts/](https://gitee.com/Megasu/uniapp-shop-vue3-ts/)
+​		https://github.com/shandongfeng/GongDaEST
 
 
 
-## 项目运行（两种）
+## 项目运行
+
+```
+前端：
+	1.下载小程序前端——AppletFrontend代码，直接用vscode打开
+	2.将项目AppletFrontend\dist\dev\mp-weixin导入微信开发者工具
+	3.vscode终端输入: npm run dev:mp-weixin
+后端：
+	1.将AppletBackend文件夹直接用idea打开即可
+	2.运行src\main\java\com\fengxiangkai\AppletBackend.java即可
+```
+
+
+
+## 项目创建参考（两种）
 
 ### 	一.  HBuilder X  +  微信开发者工具
 
@@ -74,7 +86,10 @@ https://blog.csdn.net/qq_62898618/article/details/128513692?ops_request_misc=&re
 https://www.bilibili.com/video/BV1Bp4y1379L?p=2&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
 
 关于命令行创建uniapp项目（因为视频里的文件资源失效等问题，导致无法创建）
-解决: 我已将文件
+视频文件资源: https://github.com/shandongfeng/GongDaEST/tree/master/%E9%A1%B9%E7%9B%AE%E4%BE%9D%E8%B5%96
+两种解决：
+1.创建项目的文件目录下打开命令行，输入：vue create -p uni-preset-vue 项目名
+2.直接使用上方链接下载的小兔仙ts模板，下载即用
 ```
 
 #### 	二. VSCode  +  微信开发者工具
