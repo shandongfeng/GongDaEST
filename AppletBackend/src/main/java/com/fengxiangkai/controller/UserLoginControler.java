@@ -21,12 +21,6 @@ import java.util.HashMap;
 @Slf4j
 @RestController
 public class UserLoginControler {
-//    @CrossOrigin(origins = "http://localhost:64943,http://localhost:5500") // 设置允许跨域请求的来源,否则本电脑其他端口发送请求无效
-//    @GetMapping("/login/user")
-//    public Result login(@RequestParam String msg){
-//        log.info("管理员登录:{}",msg);
-//        return Result.success();
-//    }
     @Autowired
     private UserInfoService userInfoService;
     //微信小程序注册接口
@@ -77,12 +71,24 @@ public class UserLoginControler {
     }
 
     //用户注册,成功就保存用户到数据库并返回data到客户端
+
+    /**
+     * 微信请求
+     * @RequestParams: appid、appSecret、authorization_code
+     * @Url https://api.weixin.qq.com/sns/jscode2session?appid=%s&secret=%s&js_code=%s&grant_type=authorization_code
+     * @return 微信后台请求session_key、openid等信息
+     *
+     *
+     * 保存用户信息到数据库，并返回
+     * @param param——前端发送的请求体
+     * @return ResultType<UserInfo>类型的数据
+     */
     public ResultType<UserInfo> userRegister(UserLoginParam param){
         String name = param.getName();
         String phoneNumber = param.getPhoneNumber();
         //保存图片信息到本地并返回存储地址
         String imagePath = ImageHandleUtil.uploadImageHandle("image",phoneNumber, param.getAvatar());
-        //获取微信后台url
+        //获取微信后台url参数设置
         String appid = "wxa93d455f60f36c3e";
         String appSecret = "3823325348d556e62e255d7f164a4698";
         String code = param.getCode();
@@ -118,6 +124,14 @@ public class UserLoginControler {
         return ResultType.error(null);
     }
     //接收到code然后向微信后台发送请求获取appid等用户信息
+
+    /**
+     * 一套完整的java后台发送请求的流程
+     * @param url——请求url
+     * @return 返回数据自动绑定WeixinRequestResult类型
+     * @throws IOException
+     * @throws InterruptedException
+     */
     public WeixinRequestResult request_user_msg(String url) throws IOException, InterruptedException {
         // 创建 HttpClient 实例
         HttpClient httpClient = HttpClient.newBuilder()
@@ -138,24 +152,4 @@ public class UserLoginControler {
     }
 
 
-    //@PostMapping("/upload/user/avatar")
-    //@GetMapping("/upload/user/image")
-//    public int uploadImageHandle(MultipartFile  receiveImage) {
-//        if (!receiveImage.isEmpty()) {
-//            try {
-//                //获取当前路径
-//                Path currentDirectory = Paths.get(System.getProperty("user.dir"));
-//                //指定保存路径
-//                String filePath = currentDirectory.getParent() + "/static/user/image/touxiang.jpg"; // 设置文件保存路径
-//                //上传图片信息
-//                File file = new File(filePath);
-//                receiveImage.transferTo(file);
-//                System.out.println("图片成功上传到服务器");
-//                return 200;
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//        return 0;
-//    }
 }
