@@ -1,6 +1,6 @@
 ## 项目简介
 
-工大二手堂项目（仿咸鱼）包含从首页浏览商品，商品详情，微信登录，加入购物车，提交订单，微信支付，订单管理等功能。
+工大二手堂项目（仿咸鱼）包含从首页浏览商品，商品分类、商品发布、购物车、我的主页等功能，详情见下面文件结构目录
 
 ### 技术栈
 
@@ -13,7 +13,6 @@
 🔒 权限管理：页面级、菜单级、按钮级、接口级
 ✊ 状态管理：[pinia](https://pinia.vuejs.org/zh/)
 💪 组件按需导入：main.js 手动导入
-
 📖 代码工具：VSCode + 微信开发者工具+IDEA+MySQL
 
 
@@ -22,17 +21,17 @@
 
 ### 📀 视频学习
 
-#### 			1.原生开发：
+#### 	1.原生开发：
 
- 	开发软件：微信开发者工具（开放端口，导入项目路径）
+		开发软件：微信开发者工具（开放端口，导入项目路径）
  	
- 	教学视频：https://www.bilibili.com/video/BV1834y1676P?p=7&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
+ 		教学视频：https://www.bilibili.com/video/BV1834y1676P?p=7&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
 
-#### 			2.uniapp 框架开发
+#### 	2.uniapp 框架开发
 
- 	开发软件：HBuilder X（过渡）或者 vscode（主力）
+ 		开发软件：HBuilder X（过渡）或者 vscode（主力）
  	
- 	教学视频：https://www.bilibili.com/video/BV1Bp4y1379L?p=11&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
+ 		教学视频：https://www.bilibili.com/video/BV1Bp4y1379L?p=11&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
 
 ### 📗 接口文档
 
