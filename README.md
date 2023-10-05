@@ -5,15 +5,25 @@
 ### 技术栈
 
 ✨ 脚手架工具：vue-cli
+
 🔥 前端框架：[uni-app](https://uniapp.dcloud.net.cn/) (Vue3 + TS + Setup)
+
 🍍 状态管理器：vue3 新秀 Pinia，犹如 react zustand 般的体验，友好的 api 和异步处理
+
 🏆 开发语言：政治正确 TypeScript
+
 🎉UI 组件：[uni-ui](https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html)
+
 🎨css 样式：scss
+
 🔒 权限管理：页面级、菜单级、按钮级、接口级
+
 ✊ 状态管理：[pinia](https://pinia.vuejs.org/zh/)
+
 💪 组件按需导入：main.js 手动导入
+
 📖 代码工具：VSCode + 微信开发者工具+IDEA+MySQL
+
 
 
 
