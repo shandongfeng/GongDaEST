@@ -2,6 +2,16 @@
 
 工大二手堂项目（仿咸鱼）包含从首页浏览商品，商品分类、商品发布、购物车、我的主页等功能，详情见下面文件结构目录
 
+![pictures](D:\A---desktop\pictures.jpg)
+
+![pictures66](D:\A---desktop\pictures66.jpg)
+
+![1](D:\A---desktop\1.jpg)
+
+------
+
+
+
 ### 技术栈
 
 ✨ 脚手架工具：vue-cli
@@ -33,15 +43,15 @@
 
 #### 	1.原生开发：
 
-		开发软件：微信开发者工具（开放端口，导入项目路径）
- 	
- 		教学视频：https://www.bilibili.com/video/BV1834y1676P?p=7&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
+	开发软件：微信开发者工具（开放端口，导入项目路径）
+	
+	教学视频：https://www.bilibili.com/video/BV1834y1676P?p=7&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
 
 #### 	2.uniapp 框架开发
 
- 		开发软件：HBuilder X（过渡）或者 vscode（主力）
+ 	开发软件：HBuilder X（过渡）或者 vscode（主力）
  	
- 		教学视频：https://www.bilibili.com/video/BV1Bp4y1379L?p=11&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
+ 	教学视频：https://www.bilibili.com/video/BV1Bp4y1379L?p=11&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
 
 ### 📗 接口文档
 
@@ -95,7 +105,7 @@ https://blog.csdn.net/qq_62898618/article/details/128513692?ops_request_misc=&re
 https://www.bilibili.com/video/BV1Bp4y1379L?p=2&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
 
 关于命令行创建uniapp项目（因为视频里的文件资源失效等问题，导致无法创建）
-视频文件资源: https://github.com/shandongfeng/GongDaEST/tree/master/%E9%A1%B9%E7%9B%AE%E4%BE%9D%E8%B5%96
+视频文件提到的资源: https://github.com/shandongfeng/GongDaEST/tree/master/%E9%A1%B9%E7%9B%AE%E4%BE%9D%E8%B5%96
 两种解决：
 1.创建项目的文件目录下打开命令行，输入：vue create -p uni-preset-vue 项目名
 2.直接使用上方链接下载的小兔仙ts模板，下载即用
