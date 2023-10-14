@@ -2,11 +2,11 @@
 
 工大二手堂项目（仿咸鱼）包含从首页浏览商品，商品分类、商品发布、购物车、我的主页等功能，详情见下面文件结构目录
 
-![pictures](D:\A---desktop\pictures.jpg)
+![image](https://github.com/shandongfeng/GongDaEST/blob/master/1.jpg)
 
-![pictures66](D:\A---desktop\pictures66.jpg)
+![image](https://github.com/shandongfeng/GongDaEST/blob/master/2.jpg)
 
-![1](D:\A---desktop\1.jpg)
+![image](https://github.com/shandongfeng/GongDaEST/blob/master/3.jpg)
 
 ------
 
