@@ -53,18 +53,5 @@ public class ImageHandleUtil {
         baos.close();
         //不加它data:image/jpg;base64,小程序无法识别返回字符串为base64类型
         return "data:image/jpg;base64," + Base64.getEncoder().encodeToString(imageBytes);
-
-
-
-        //正则匹配路径中的手机号
-//        Pattern pattern = Pattern.compile("\\b(1[0-9]\\d{9})\\b");
-//        Matcher matcher = pattern.matcher(path);
-//        if (matcher.find()) {
-//            String phoneNumber = matcher.group();
-//
-//        } else {
-//            System.out.println("图片路径错误");
-//            return "";
-//        }
     }
 }
