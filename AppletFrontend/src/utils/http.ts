@@ -2,7 +2,6 @@
  * 拦截器
  *
  */
-import { memberStore } from '@/stores/modules/member'
 
 //基础url
 const baseURL = 'http://localhost:8181/'

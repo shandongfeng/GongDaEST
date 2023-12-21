@@ -2,7 +2,7 @@ export type uploadImageType = {
   path: string
   data: string
 }
-
+//其他文件可以引用这个对象，并获取其中的属性值
 const uploadImageMsg: uploadImageType = {
   path: '',
   data: '',

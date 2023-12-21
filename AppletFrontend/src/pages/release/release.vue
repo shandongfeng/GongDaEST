@@ -1,5 +1,4 @@
 <script setup lang="ts">
-const { safeAreaInsets } = uni.getSystemInfoSync() //获取导航边界到屏幕的距离
 import { memberStore } from '@/stores/modules/member'
 const useMemberStore = memberStore()
 //点击拍照进入信息填写页
