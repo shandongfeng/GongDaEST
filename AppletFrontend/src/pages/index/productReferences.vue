@@ -223,7 +223,7 @@ export default defineComponent({
           type="primary"
           :circle="true"
         />
-        <text style="margin-left: 10rpx; margin-top: 5rpx;">{{
+        <text style="margin-left: 10rpx; margin-top: 5rpx">{{
           productItemInfo?.productInfo.description.substring(0, 24)
         }}</text>
       </view>
@@ -247,7 +247,7 @@ export default defineComponent({
         <image
           :src="item"
           mode="scaleToFill"
-          style="margin: 0 0 10rpx 5%; height: 800rpx; width: 90%; border-radius: 10rpx;"
+          style="margin: 0 0 10rpx 5%; height: 800rpx; width: 90%; border-radius: 10rpx"
         />
       </view>
     </view>
