@@ -175,7 +175,9 @@ export default defineComponent({
         />
         <view class="verifyCode-view">
           <input placeholder="请输入验证码" placeholder-class="input-placeholder" />
-          <button style="width: 250rpx; font-size: 30rpx" hover-class="button-hover">发送验证码</button>
+          <button style="width: 250rpx; font-size: 30rpx" hover-class="button-hover">
+            发送验证码
+          </button>
         </view>
         <view class="below_two_btn">
           <button @tap="cancelClicked" hover-class="button-hover">取消</button>
