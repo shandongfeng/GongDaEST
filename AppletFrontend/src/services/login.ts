@@ -47,5 +47,3 @@ export const register_and_getToken = <T>(requestBody: loginType) => {
 //     }
 //   })
 // }
-
-
