@@ -1,22 +1,39 @@
 ## 项目简介
 
-工大二手堂项目（仿咸鱼）包含从首页浏览商品，商品详情，微信登录，加入购物车，提交订单，微信支付，订单管理等功能。
+工大二手堂项目（仿咸鱼）包含从首页浏览商品，商品分类、商品发布、购物车、我的主页等功能，详情见下面文件结构目录
 
-当前仓库为工大二手堂的**项目模板**。
+![image](https://github.com/shandongfeng/GongDaEST/blob/master/1.jpg)
+
+![image](https://github.com/shandongfeng/GongDaEST/blob/master/2.jpg)
+
+![image](https://github.com/shandongfeng/GongDaEST/blob/master/3.jpg)
+
+------
+
+
 
 ### 技术栈
 
 ✨ 脚手架工具：vue-cli
+
 🔥 前端框架：[uni-app](https://uniapp.dcloud.net.cn/) (Vue3 + TS + Setup)
+
 🍍 状态管理器：vue3 新秀 Pinia，犹如 react zustand 般的体验，友好的 api 和异步处理
+
 🏆 开发语言：政治正确 TypeScript
+
 🎉UI 组件：[uni-ui](https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html)
+
 🎨css 样式：scss
+
 🔒 权限管理：页面级、菜单级、按钮级、接口级
+
 ✊ 状态管理：[pinia](https://pinia.vuejs.org/zh/)
+
 💪 组件按需导入：main.js 手动导入
 
 📖 代码工具：VSCode + 微信开发者工具+IDEA+MySQL
+
 
 
 
@@ -24,39 +41,64 @@
 
 ### 📀 视频学习
 
-#### 	1.原生开发：
+#### 	1.微信原生开发：
 
- 		开发软件：微信开发者工具（开放端口，导入项目路径）
-
- 		教学视频：https://www.bilibili.com/video/BV1834y1676P?p=7&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
+	开发软件：微信开发者工具（开放端口，导入项目路径）
+	
+	教学视频：https://www.bilibili.com/video/BV1834y1676P?p=7&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
 
 #### 	2.uniapp 框架开发
 
- 		开发软件：HBuilder X（过渡）或者 vscode（主力）
+ 	开发软件：HBuilder X（过渡）或者 vscode（主力）
+ 	
+ 	教学视频：https://www.bilibili.com/video/BV1Bp4y1379L?p=11&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
 
- 		教学视频：https://www.bilibili.com/video/BV1Bp4y1379L?p=11&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
+### 📗 接口文档(黑马小兔鲜儿)
 
-### 📗 接口文档
-
-​		[https://www.apifox.cn/apidoc/shared-0e6ee326-d646-41bd-9214-29dbf47648fa/](https://www.apifox.cn/apidoc/shared-0e6ee326-d646-41bd-9214-29dbf47648fa/)
+	https://www.apifox.cn/apidoc/shared-0e6ee326-d646-41bd-9214-29dbf47648fa/
 
 ### ✏️ 在线笔记
 
-[		https://megasu.gitee.io/uni-app-shop-note/](https://megasu.gitee.io/uni-app-shop-note/)
+	https://github.com/shandongfeng/GongDaEST/tree/master/%E6%88%91%E7%9A%84%E7%AC%94%E8%AE%B0
 
 ### 📖学习手册
 
-​		微信开发文档：https://developers.weixin.qq.com/miniprogram/dev/framework/
-
-​		uniapp开发文档：https://uniapp.dcloud.net.cn/quickstart.html#
+	微信开发文档：https://developers.weixin.qq.com/miniprogram/dev/framework/
+	
+	uniapp开发文档：https://uniapp.dcloud.net.cn/quickstart.html#
 
 ### 📦 项目源码
 
-​		[https://gitee.com/Megasu/uniapp-shop-vue3-ts/](https://gitee.com/Megasu/uniapp-shop-vue3-ts/)
+	https://github.com/shandongfeng/GongDaEST
 
 
 
-## 项目运行（两种）
+## 项目运行
+
+### 前端(AppletFrontend)
+
+```
+首先需要安装Node.js,我的是18.17.0版本
+
+git clone https://github.com/shandongfeng/GongDaEST.git		//拉取项目，需要安装git客户端
+
+cd 工大二手堂/AppletFrontend	//切换到项目目录
+
+npm install	//安装依赖
+
+npm run dev:mp-weixin	//运行项目
+```
+
+### 后端(AppletBackend)
+
+```
+1.将AppletBackend文件夹直接用idea打开即可
+2.运行src\main\java\com\fengxiangkai\AppletBackend.java即可
+```
+
+
+
+## 个人项目搭建参考（两种）
 
 ### 	一.  HBuilder X  +  微信开发者工具
 
@@ -74,8 +116,10 @@ https://blog.csdn.net/qq_62898618/article/details/128513692?ops_request_misc=&re
 https://www.bilibili.com/video/BV1Bp4y1379L?p=2&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
 
 关于命令行创建uniapp项目（因为视频里的文件资源失效等问题，导致无法创建）
-解决: 我已将文件放在
-步骤: vue create -p 文件项目在本地的地址(路径不能为中文),然后选择js或ts版本，完成创建uniapp项目
+视频文件提到的资源: https://github.com/shandongfeng/GongDaEST/tree/master/%E9%A1%B9%E7%9B%AE%E4%BE%9D%E8%B5%96
+两种解决：
+1.创建项目的文件目录下打开命令行，输入：vue create -p uni-preset-vue 项目名
+2.直接使用上方链接下载的小兔仙ts模板，下载即用
 ```
 
 #### 	二. VSCode  +  微信开发者工具
@@ -96,7 +140,7 @@ https://blog.csdn.net/qq_55342245/article/details/115444815?ops_request_misc=%25
 https://blog.csdn.net/qq_55342245/article/details/115444815?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169649470916800226556146%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169649470916800226556146&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-115444815-null-null.142^v94^control&utm_term=vscode%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F&spm=1018.2226.3001.4187
 ```
 
-​		微信开发者工具导入 `/dist/dev/mp-weixin` 目录
+	微信开发者工具导入 `/dist/dev/mp-weixin` 目录
 
 ### 工程结构解析
 
