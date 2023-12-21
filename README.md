@@ -41,7 +41,7 @@
 
 ### 📀 视频学习
 
-#### 	1.原生开发：
+#### 	1.微信原生开发：
 
 	开发软件：微信开发者工具（开放端口，导入项目路径）
 	
@@ -53,41 +53,52 @@
  	
  	教学视频：https://www.bilibili.com/video/BV1Bp4y1379L?p=11&vd_source=80fc182783ecfbd4e3ed3d35d34b18ba
 
-### 📗 接口文档
+### 📗 接口文档(黑马小兔鲜儿)
 
-​		[https://www.apifox.cn/apidoc/shared-0e6ee326-d646-41bd-9214-29dbf47648fa/](https://www.apifox.cn/apidoc/shared-0e6ee326-d646-41bd-9214-29dbf47648fa/)
+	https://www.apifox.cn/apidoc/shared-0e6ee326-d646-41bd-9214-29dbf47648fa/
 
 ### ✏️ 在线笔记
 
-​		https://github.com/shandongfeng/GongDaEST/tree/master/%E6%88%91%E7%9A%84%E7%AC%94%E8%AE%B0
+	https://github.com/shandongfeng/GongDaEST/tree/master/%E6%88%91%E7%9A%84%E7%AC%94%E8%AE%B0
 
 ### 📖学习手册
 
-​		微信开发文档：https://developers.weixin.qq.com/miniprogram/dev/framework/
-
-​		uniapp开发文档：https://uniapp.dcloud.net.cn/quickstart.html#
+	微信开发文档：https://developers.weixin.qq.com/miniprogram/dev/framework/
+	
+	uniapp开发文档：https://uniapp.dcloud.net.cn/quickstart.html#
 
 ### 📦 项目源码
 
-​		https://github.com/shandongfeng/GongDaEST
+	https://github.com/shandongfeng/GongDaEST
 
 
 
 ## 项目运行
 
+### 前端(AppletFrontend)
+
 ```
-前端：
-	1.下载小程序前端——AppletFrontend代码，直接用vscode打开
-	2.将项目AppletFrontend\dist\dev\mp-weixin导入微信开发者工具
-	3.vscode终端输入: npm run dev:mp-weixin
-后端：
-	1.将AppletBackend文件夹直接用idea打开即可
-	2.运行src\main\java\com\fengxiangkai\AppletBackend.java即可
+首先需要安装Node.js,我的是18.17.0版本
+
+git clone https://github.com/shandongfeng/GongDaEST.git		//拉取项目，需要安装git客户端
+
+cd 工大二手堂/AppletFrontend	//切换到项目目录
+
+npm install	//安装依赖
+
+npm run dev:mp-weixin	//运行项目
+```
+
+### 后端(AppletBackend)
+
+```
+1.将AppletBackend文件夹直接用idea打开即可
+2.运行src\main\java\com\fengxiangkai\AppletBackend.java即可
 ```
 
 
 
-## 项目创建参考（两种）
+## 个人项目搭建参考（两种）
 
 ### 	一.  HBuilder X  +  微信开发者工具
 
@@ -129,7 +140,7 @@ https://blog.csdn.net/qq_55342245/article/details/115444815?ops_request_misc=%25
 https://blog.csdn.net/qq_55342245/article/details/115444815?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169649470916800226556146%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169649470916800226556146&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-115444815-null-null.142^v94^control&utm_term=vscode%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F&spm=1018.2226.3001.4187
 ```
 
-​		微信开发者工具导入 `/dist/dev/mp-weixin` 目录
+	微信开发者工具导入 `/dist/dev/mp-weixin` 目录
 
 ### 工程结构解析
 
